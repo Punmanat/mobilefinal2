@@ -129,7 +129,7 @@ class LoginScreenState extends State<LoginScreen> {
             Column(
               crossAxisAlignment: CrossAxisAlignment.end,
               children: <Widget>[
-                FlatBut
+                FlatButton(
                   child: Text("Register new account"),
                   onPressed: () {
                     Navigator.pushNamed(context, '/register');
